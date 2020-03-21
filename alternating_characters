@@ -1,6 +1,8 @@
 /*
 a=AABAAB
 in 2 deletion it will become ABAB(that means no two alternating characters will same)
+output should be 
+2
 */
 
 int alternatingCharacters(string s) {
