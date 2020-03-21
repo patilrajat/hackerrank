@@ -1,0 +1,23 @@
+/*
+a=AABAAB
+in 2 deletion it will become ABAB(that means no two alternating characters will same)
+*/
+
+int alternatingCharacters(string s) {
+int i;
+    int j;
+    int l=s.size();
+    int count=0;
+    
+        for(j=0;j<l;j++)
+        {
+            if(s[j]==s[j+1])
+            {
+                count++;
+                
+            }
+        }
+    
+ return count;
+
+}
