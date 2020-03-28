@@ -8,7 +8,7 @@ Sample Input
 
 Sample Output
 1112
-1X12
+1X12              if left,right,upper,lower elements are less then replace with X(this is not for element on edge)
 18X2
 1234
 Explanation
